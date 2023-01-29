@@ -1,0 +1,35 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 03/01/2018 07:38
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  	font-family: Flaticon;
+    font-size: 50px;
+	font-style: normal;
+	margin-left: 0px;
+}
+
+.flaticon-canape:before { content: url("https://img.icons8.com/ios/50/1A1A1A/upload-link-document.png"); }
+.flaticon-dinner:before { content: url("https://img.icons8.com/external-sbts2018-outline-sbts2018/58/000000/external-testing-basic-ui-elements-2.5-sbts2018-outline-sbts2018.png"); }
+.flaticon-desert:before { content: url("https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-website-ecommerce-xnimrodx-lineal-xnimrodx-2.png"); }
+.flaticon-coffee:before { content: url("https://img.icons8.com/external-line-lima-studio/64/1A1A1A/external-website-web-design-line-lima-studio.png"); }

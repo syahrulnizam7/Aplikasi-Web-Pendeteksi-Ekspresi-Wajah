@@ -1,0 +1,153 @@
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #0b756f;
+}
+.main-menu .navbar-default .navbar-nav .active a{
+	color: #0b756f;
+}
+.main-menu nav li a::after {
+    background: #0b756f;
+}
+.typer{
+	color: #0b756f !important;
+}
+.banner-text h2{
+	color: #0b756f
+}
+.book-btn a{
+	background: #0b756f;
+	border: 3px solid #0b756f;
+}
+.book-btn a:hover{
+	border: 3px solid #0b756f;
+}
+.hvr-underline-from-center::before{
+	background: #0b756f;
+}
+.block-title{
+	color: #0b756f;
+}
+.item-type-zoom .item-hover:hover::before{
+	background: #0b7570ba;
+}
+.special-box .owl-theme .owl-controls .owl-page.active span{
+	background: #0b756f;
+}
+.offer-item div h3{
+	color: #0b756f;
+}
+.tab-menu .is-active{
+	background: #0b756f;
+}
+.tab-menu .slick-arrow.slick-prev{
+	background: #0b756f url(../../images/back.png) no-repeat center;
+	background-position: 2px 4px;
+}
+.tab-menu .slick-arrow.slick-next{
+	background: #0b756f url(../../images/next.png) no-repeat center;
+	background-position: 7px 4px;
+}
+
+.tab-menu .slick-arrow.slick-prev:hover{
+	background:#0b756f url(../../images/back_hover.png) no-repeat center;
+	background-position: 2px 4px;
+}
+.tab-menu .slick-arrow.slick-next:hover{
+	background:#0b756f url(../../images/next_hover.png) no-repeat center;
+	background-position: 7px 4px;
+}
+
+.offer-item .offer-price{
+	border: 1px solid #0b756f;
+}
+.sf-team:hover .text-col{
+	background-color: #0b756f;
+}
+.gal-item a::after{
+	background-color: #0b7570ba;
+}
+.overlay i:hover{
+	border: 1px solid #0b756f;
+	color: #0b756f;
+}
+.blog-btn-v a{
+	background: #0b756f;
+	border: 3px solid #0b756f;
+}
+.blog-btn-v a:hover{
+	border: 3px solid #0b756f;
+}
+.book-srv a{
+	background: #0b756f;
+	border: 3px solid #0b756f;
+}
+.book-srv a:hover{
+	border: 3px solid #0b756f;
+}
+.reserve-book-btn button{
+	background: #0b756f;
+	border: 3px solid #0b756f;
+}
+.reserve-book-btn button:hover a{
+	color:#000000;
+}
+.reserve-book-btn button:hover {
+	border: 3px solid #0b756f;
+}
+
+
+.panel-pricing .panel-heading{
+	background: #0b756f;
+}
+.panel-pricing{
+	border: 1px solid #0b756f;
+}
+.panel-body p strong span{
+	color: #0b756f;
+}
+.pricing-main .panel-footer a{
+	background: #0b756f;
+	border: 3px solid #0b756f;
+}
+.pricing-main .panel-footer a:hover{
+	border: 3px solid #0b756f;
+}
+
+
+.footer-news form a{
+	background: #0b756f;
+}
+.footer-news form a:hover{
+	border: 2px dotted #0b756f;
+}
+.footer-box-a h3{
+	color: #0b756f;
+}
+.footer-box-b h3{
+	color: #0b756f;
+}
+.footer-box-c h3{
+	color: #0b756f;
+}
+.footer-box-d h3{
+	color: #0b756f;
+}
+.footer-box-c p a:hover{
+	color: #0b756f;
+}
+.footer-box-b ul li a:hover{
+	color: #0b756f;
+}
+.footer-box .socials-box a:hover .social-circle-border{
+	color: #0b756f;
+}
+.footer-box-c p i{
+	color: #0b756f;
+}
+
+.copyright-main{
+	background: #0b756f;
+}
+
+#color-panel a.panel-button:hover{
+	color: #0b756f;		
+}

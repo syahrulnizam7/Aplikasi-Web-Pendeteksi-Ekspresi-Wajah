@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/logoheader.png">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+    <!-- Site Metas -->
+    <link rel="icon" href="icon-rec.png">
+    <title>Facial Emotion Recognition</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
+
+    <!-- Modernizer -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div id="loader">
+        <div id="status"></div>
+    </div>
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <!-- navbar -->
+                        <nav class="navbar navbar-default" id="mainNav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#home">
+                                        <img src="images/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#banner">Home</a></li>
+                                    <li><a href="#about">About us</a></li>
+                                    <li><a href="#menu">Arsitektur</a></li>
+                                    <li><a href="#our_team">Team</a></li>
+                                    <li><a href="#gallery">Gallery</a></li>
+                                    <li><a href="#blog">Data</a></li>
+                                    <li><a href="#pricing">Type</a></li>
+                                    <li><a href="#recognition">Recognition</a></li>
+                                    <li><a href="#footer">Result</a></li>
+                                </ul>
+                            </div>
+                            <!-- end nav-collapse -->
+                        </nav>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+        <!-- end header -->
+    </div>
+    <!-- end site-header -->
+
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1>Are you <span class="typer" id="some-id" data-delay="200" data-delim=":"
+                                    data-words="Angry?:Disgust?:Fear?:Happy?:Neutral?:Sad?:Suprise?"
+                                    data-colors="red"></span><span class="cursor" data-cursorDisplay="_"
+                                    data-owner="some-id"></span></h1>
+                            <h2>Facial Emotion Recognition</h2>
+                            <div class="book-btn">
+                                <a href="#recognition" class="table-btn hvr-underline-from-center">RECOGNITION</a>
+                            </div>
+                            <a href="#about">
+                                <div class="mouse"></div>
+                            </a>
+                        </div>
+                        <!-- end banner-cell -->
+                    </div>
+                    <!-- end banner-text -->
+                </div>
+                <!-- end banner-static -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end banner -->
+
+    <div id="about" class="about-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s" style="text-align:justify;">
+                        <h2 class="block-title"> About Us </h2>
+                        <h3>APA ITU FACIAL EMOTION RECOGNITION?</h3>
+                        <p> Facial Emotion Recognition / Pengenalan Emosi Wajah merupakan website yang diciptakan
+                            untuk menganalisis emosional seseorang berdasarkan ekspresi wajah yang diperlihatkan
+                            melalui gambar yang diupload.
+                        </p>
+                        <p> Ekspresi wajah atau mimik adalah hasil dari satu atau semakin aksi atau posisi otot pada
+                            wajah. Ekspresi wajah merupakan salah satu bangun komunikasi nonverbal, dan mampu
+                            menyampaikan kondisi emosi dari seseorang untuk orang yang mengamatinya. Ekspresi wajah
+                            merupakan salah satu cara penting dalam menyampaikan pesan sosial dalam kehidupan manusia,
+                            namun juga terjadi pada mamalia lain dan beberapa spesies binatang lainnya.
+                        </p>
+                        <p> Manusia mampu mengalami ekspresi wajah tertentu secara sengaja, tapi umumnya ekspresi wajah
+                            dialami secara tak sengaja dampak perasaan atau emosi manusia tersebut. Biasanya amat sulit
+                            untuk menyembunyikan perasaan atau emosi tertentu dari wajah, walaupun banyak orang yang
+                            merasa amat mau melakukannya. Misalnya, orang yang mencoba menyembunyikan perasaan bencinya
+                            terhadap seseorang, pada kala tertentu tanpa sengaja akan menunjukkan perasaannya tersebut
+                            di wajahnya, walaupun beliau berusaha menunjukkan ekspresi netral. Hubungan perasaan dan
+                            ekspresi wajah juga mampu berlangsung sebaliknya, pengamatan menunjukkan bahwa melakukan
+                            ekspresi wajah tertentu dengan sengaja (misalnya: tersenyum), mampu memengaruhi atau
+                            mengakibatkan perasaan terkait benar-benar terjadi.
+                        </p>
+                        <p>
+                            Sebagian ekspresi wajah mampu dikenali dengan mudah, bahkan oleh beberapa orang yang berbeda, contohnya kemarahan dan kepuasan.
+                            Namun, beberapa ekspresi lainnya sulit didefinisikan, contohnya ketakutan dan kejijikan kadang sulit dibedakan.
+                            Selain itu, kadang-kadang suatu wajah mampu disalahartikan mengalami emosi tertentu, karena susunan otot-otot wajah orang tersebut 
+                            secara alami menyerupai wajah seseorang yang mengalami ekspresi tertentu, 
+                            contohnya wajah seseorang yang terlihat selalu tersenyum.
+                            Oleh karena itu, website Facial Emotion Recognition ini dibuat untuk membantu dalam mengenali ekspresi manusia dari sebuah gambar, 
+                            dan menghasilkan prediksi emosional dari ekspresi yang ditunjukkan dengan akurasi tepat.
+                        </p>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <div class="about-images">
+                            <img class="about-main" src="images/ikon1.png" alt="About Main Image">
+                            <img class="about-inset" src="images/ikon2.png" alt="About Inset Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+    <div class="special-menu pad-top-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center"> Your Expression Today!</h2>
+                        <h5 class="title-caption text-center">Pada website ini, anda dapat mendeteksi ekspresi siapapun
+                            hanya melalui sebuah gambar yang kamu upload.
+                        </h5>
+                    </div>
+                    <div class="special-box">
+                        <div id="owl-demo">
+                            <div class="item item-type-zoom ">
+                                <a class="item-hover">
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/face1.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a class="item-hover">
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/face2.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a class="item-hover">
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/face3.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a class="item-hover">
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/face4.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a class="item-hover">
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/face5.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end special-box -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end special-menu -->
+
+    <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Flowchart dan Arsitektur
+                        </h2>
+                        <p class="title-caption text-center">Flowchart (Bagan Alur) adalah diagram yang menampilkan
+                            langkah-langkah dan keputusan untuk melakukan sebuah proses dari suatu program.
+                        </p>
+                        <center><img src="images/flowchart.png" alt="" class="img-responsive"></center>
+                        <br>
+                    </div>
+                    <p class="title-caption text-center">Arsitektur sistem adalah istilah untuk menyatakan bagaimana
+                        mendefinisikan komponen-komponen yang lebih spesifik secara terstruktur.</p>
+                    <div class="tab-menu">
+                        <div class="slider slider-nav">
+                            <div class="tab-title-menu">
+                                <h2>Mengumpulkan Data</h2>
+                                <p><i class="flaticon-canape"></i></p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Training & Testing </h2>
+                                <p><i class="flaticon-dinner"></i> </p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Back End</h2>
+                                <p><i class="flaticon-desert"></i> </p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Front End</h2>
+                                <p><i class="flaticon-coffee"></i> </p>
+                            </div>
+                        </div>
+                        <div class="slider slider-single">
+                            <!--mengumpulkan data-->
+                            <div>
+                                <div style="text-align:justify; padding: 20px;">
+                                    <h3>Mengumpulkan Data (5 July 2022)</h3>
+                                    <p>
+                                        Melakukan observasi terhadap beberapa jurnal untuk dijadikan sebagai acuan/referensi/inspirasi
+                                        atas program yang akan dibangun, sehingga didapatkan judul dalam project ini adalah
+                                        Deteksi Emosi Berdasarkan Ekspresi Wajah (Facial Emotion Recognition). Dataset yang kami gunakan disini
+                                        didapatkan dari Kaggle.com dengan tautan sebagai berikut.<br>
+                                        https://www.kaggle.com/datasets/msambare/fer2013
+                                        Dalam dataset tersebut terdapat 7 label yang akan diolah pada data Train dan data Test.
+                                        Label tersebut merupakan 7 emosional yang umum ditunjukkan oleh manusia berdasarkan ekspresi, 
+                                        seperti marah, jijik, takut, senang, netral, sedih, dan terkejut.
+                                    </p>
+                                </div>
+                                <!-- end col -->
+                            </div>
+
+                            <!--training-->
+                            <div>
+                                <div style="text-align:justify ; padding: 20px;">
+                                    <h3>Training & Testing (5 July 2022) </h3>
+                                    <p>
+                                        Menggolongkan data menjadi data train dan data Test, membaca data yang
+                                        telah dimuat, melihat akurasi data, dan membuat model H5. Data train digunakan untuk
+                                        melatih (training) algoritma, sedangkan data test adalah data yang diuji (testing) untuk 
+                                        mengetahui performa algoritma yang sudah dilatih sebelumnya 
+                                        ketika menemukan data baru yang belum pernah dilihat sebelumnya.
+                                    </p>
+                                </div>
+                                <!-- end col -->
+                            </div>
+
+                            <!--backend-->
+                            <div>
+                                <div style="text-align:justify ; padding: 20px;">
+                                    <h3>Backend (12 - 13 July 2022)</h3>
+                                    <p>
+                                        Merancang Sistem dari sisi server berhubungan dengan logika dengan menggunakan
+                                        bahasa pemrograman Python.
+                                    </p>
+                                </div>
+                                <!-- end col -->
+                            </div>
+
+                            <!--frontend-->
+                            <div>
+                                <div style="text-align:justify ; padding: 20px;">
+                                    <h3>Front End (13 July - 3 Agustus 2022)</h3>
+                                    <p>
+                                        Mengembangkan tampilan antarmuka sistem melalui HTML, bootstrap dan CSS.
+                                    </p>
+                                </div>
+                                <!-- end col -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end tab-menu -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end menu -->
+
+    <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Our Team
+                        </h2>
+                        <p class="title-caption text-center">Kami bertiga berasal dari kelompok 7 di kelas 2 SIA,
+                            Politeknik Caltex Riau. Berikut adalah biodata kami</p>
+
+                    </div>
+                    <div class="team-box">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/staff-01.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>Rio Pardomuan Marpaung</h3>
+                                        <p>Saya Rio Pardomuan Marpaung dari kelas 2SIA dengan NIM 2057301087. Dalam
+                                            project ini, saya berkontribusi dalam Pencarian Jurnal & Dataset, Pembuatan
+                                            Model H5, Pembuatan Backend dan juga Frontend.</p>
+                                        <ul class="team-social">
+                                            <li><a href="https://www.instagram.com/_r1o.m/"><i class="fa"
+                                                        aria-hidden="true">
+                                                        <img
+                                                            src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
+                                                    </i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/staff-02.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>Nada Marliani</h3>
+                                        <p>Saya Nada Marliani dari kelas 2SIA dengan NIM 2057301072. Dalam project ini,
+                                            saya berkontribusi dalam Pencarian Jurnal & Dataset, Pembuatan
+                                            Model H5, Pembuatan Backend dan juga Frontend.</p><br>
+                                        <ul class="team-social">
+                                            <li><a href="https://www.instagram.com/nada.marliani/"><i class="fa"
+                                                        aria-hidden="true">
+                                                        <img
+                                                            src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
+                                                    </i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/staff-03.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>Muhammad Syahrul Nizam</h3>
+                                        <p>Saya Muhammad Syahrul Nizam dari kelas 2SIA dengan NIM 2057301069. Dalam project ini,
+                                            saya berkontribusi dalam Pencarian Jurnal & Dataset, Pembuatan
+                                            Model H5, Pembuatan Backend dan juga Frontend.</p>
+                                        <ul class="team-social">
+                                            <li><a href="https://www.instagram.com/alang.kun/"><i class="fa"
+                                                        aria-hidden="true">
+                                                        <img
+                                                            src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
+                                                    </i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div>
+                    <!-- end team-box -->
+
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end team-main -->
+
+    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Our Gallery
+                        </h2>
+                        <p class="title-caption text-center">Berikut dokumentasi kami saat pengerjaan project </p>
+
+                    </div>
+                    <div class="gal-container clearfix">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#1">
+                                    <img src="images/gallery_01.png" alt="" />
+                                </a>
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_01.png" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 1 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#2">
+                                    <img src="images/gallery_02.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_02.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 2 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#3">
+                                    <img src="images/gallery_03.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_03.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 3 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#4">
+                                    <img src="images/gallery_04.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_04.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 4 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#5">
+                                    <img src="images/gallery_05.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_05.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 5 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#9">
+                                    <img src="images/gallery_06.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_06.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 6 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#10">
+                                    <img src="images/gallery_07.png" alt="" />
+                                </a>
+                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_07.png" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 7 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end gal-container -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+    </div>
+    <!-- end gallery-main -->
+
+    <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+                        Our Supervisor
+                    </h2>
+                    <div class="blog-box clearfix">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/pakdosen1.jpg" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>DOSEN</span></p>
+                                        <h2>Muhammad Mahrus Zain, S.S.T., M.T.I.</h2>
+                                        <h5>Praktikum Data Mining</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/dosen.jpg" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>AIL</span></p>
+                                        <h2>Miftachul Huda, S.S.T.</h2>
+                                        <h5>Praktikum Data Mining</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+
+                    </div>
+                    <!-- end blog-box -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end blog-main -->
+
+    <div id="pricing" class="pricing-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+                        Emotion Type and Characteristics
+                    </h2>
+                    <p>Ekpresi wajah merupakan representasi emosional. Di negara manapun ekspresi akan
+                        mencerminkan emosi yang sama. Namun yang menjadi problematikanya adalah
+                        bagaimana kita tahu bahwa ekspresi yang diperlihatkan seseorang merupakan
+                        salah satu dari jenis emosi yang ada. Jenis-jenis emosi seseorang antara lain
+                        marah, jijik, takut, senang, netral, sedih dan terkejut.
+                        Masing-masing dari ekspresi wajah memiliki karakteristik yang berbeda
+                        dalam merepresentasikan emosional tersebut. Berikut ini adalah karakteristik
+                        dari ekspresi wajah yang menunjukkan jenis suatu emosi.
+                    </p>
+                </div>
+                <div class="panel-pricing-in">
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Angry.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Angry</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Alis menurun dan menyatu</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Mata melotot</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir menyempit</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Cemberut</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Disgust.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Disgust</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Menurunkan kelopak mata</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Kerutan di samping dan pangkal
+                                    hidung</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir atas terangkat dalam "U"
+                                    terbalik</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir bawah terangkat dan
+                                    sedikit menonjol</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Fear.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Fear</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Alis naik dan menyatu</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Kelopak mata atas naik</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Kelopak mata bawah tertekan</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir sedikit merenggang secara
+                                    horizontal menuju telinga</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    </div>
+                    <!-- BATAS -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Happy.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Happy</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Senyum dengan pipi yang lebih
+                                    tinggi </li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Menekan pipi
+                                    ke atas</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Membuat lipatan
+                                    pada kulit
+                                    dibawah mata</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Mempersempit
+                                    pembukaan mata</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Neutral.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Neutral</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Mata tidak terbuka lebar</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir terlihat datar</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Tatapan kosong</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Pipi tidak menekan</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Sad.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Sad</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Mata yang mulai sayu bahkan
+                                    hingga
+                                    mengeluarkan air mata</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Alis yang didorong ke
+                                    tengah-tengah</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir yang tertarik secara
+                                    horizontal</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Bibir bagian bawah tertarik ke
+                                    atas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    </div>
+                    <!-- BATAS -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/Suprise.png" alt="" width="70px" height="70px" />
+                                </div>
+                                <h3>Suprise</h3>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> Alis yang
+                                    terangkat</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Mata
+                                    yang tetap terbuka</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Rahang yang terbuka</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Reaksi sedikit panik</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /item -->
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end pricing-main -->
+
+    <!-- start main recognition -->
+    <div id="recognition" class="reservations-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="form-reservations-box">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="block-title text-center"> Recognition </h2>
+                        </div>
+                        <form id="contact" name="file" enctype="multipart/form-data" method="POST"
+                            accept-charset="utf-8"></form>
+                        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+                            rel="stylesheet">
+
+                        <div class="kotak tengah">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1 class="white">Masukkan Sebuah Gambar!</h1>
+                                    <p class="white">Silahkan upload Gambar Untuk di deteksi</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 center">
+                                    <div class="btn-container">
+                                        <!--the three icons: default, ok file (img), error file (not an img)-->
+                                        <h1 class="imgupload"><i class="fa fa-file-image-o"></i></h1>
+                                        <h1 class="imgupload ok"><i class="fa fa-check"></i></h1>
+                                        <h1 class="imgupload stop"><i class="fa fa-times"></i></h1>
+                                        <!--this field changes dinamically displaying the filename we are trying to upload-->
+                                        <p id="namefile">Hanya menerima gambar! (jpg, jpeg, bmp, png)</p>
+                                        <!--our custom btn which which stays under the actual one-->
+                                        <button type="button" id="btnup" class="btn btn-primary btn-lg">Browse</button>
+                                        <!--this is the actual file input, is set with opacity=0 beacause we wanna see our custom one-->
+                                        <input type="file" value="" name="file" id="file">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--additional fields-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!--the defauld disabled btn and the actual one shown only if the three fields are valid-->
+                                    <input onclick="scrollFormulir()" type="submit" value="SUBMIT"
+                                        class="btn btn-primary" id="uploadButton"" >
+                                    <button type=" button" class="btn btn-default" disabled="disabled"
+                                        id="fakebtn">SUBMIT<i class="fa fa-minus-circle"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- end main recognition -->
+
+    <div id="footer" class="footer-main">
+        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="ft-title color-white text-center"> Result </h2>
+                            <p id="result"> This is result of predicting your emotions based on the image.</p>
+                            <div class="col-md-tengah1 col-sm-tengah2">
+                                <div class="sf-team">
+                                    <div class="thumb" style="padding-top: 20px; padding-bottom: 20px;">
+                                        <a href="#recognition">
+                                            <center><img id="uploadPreview"
+                                                    style="border:10px solid #0b756f; width: 350px; height: 350px;" />
+                                            </center>
+                                        </a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>Description</h3>
+                                        <div class="team-social"></div>
+                                        <p id="hasil" style="font-family: cursive; font-size: 13;"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end footer-news -->
+    <div class="footer-box pad-top-70">
+        <div class="container">
+            <div class="row">
+                <div class="footer-in-main">
+                    <div class="footer-logo">
+                        <div class="text-center">
+                            <img src="images/logo.png" />
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-a">
+                            <h3>About Us</h3>
+                            <p>Facial Emotion Recognition adalah sistem yang dirancang untuk mendeteksi emosi seseorang
+                                dengan cara mengukur reaksi dari wajah.
+                            </p>
+                        </div>
+                        <!-- end footer-box-a -->
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-b">
+                            <h3>Team</h3>
+                            <ul>
+                                <li><a href="#our_team">Rio Pardomuan Marpaung</a></li>
+                                <li><a href="#our_team">Muhammad Syahtul Nizam</a></li>
+                                <li><a href="#our_team">Nada Marliani</a></li>
+                            </ul>
+                        </div>
+                        <!-- end footer-box-b -->
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-c">
+                            <h3>Contact Us</h3>
+                            <p>
+                                <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                <span>Jl. Umban Sari No. 1, Rumbai, Riau</span>
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    <a
+                                        href="https://mail.google.com/mail/u/0/?tab=om#inbox?compose=CllgCJvrbwZvDQjPkrFsrnMbBkmFqnhTZhHJZmBCRhblHpxdKkqMHGRgZJWFKLpkFCFNBTkztTg">rio20si@mahasiswa.pcr.ac.id</a><br>
+                                    <a
+                                        href="https://mail.google.com/mail/u/0/?tab=om#inbox?compose=CllgCJNvvxcFmTJbCMQplGGqwtwkzPstTlMQShHqVmCqRxTZNVFVvGDlJQrLhpRlvDRXMGdjNGq">syahrul20si@mahasiswa.pcr.ac.id</a><br>
+                                    <a
+                                        href="https://mail.google.com/mail/u/0/?tab=om#inbox?compose=DmwnWsTKxQMkWTZmMVLFddGgnsQWctxkSQNCbWqlHKMGQXhhqHvMZnVGfStpBZtRrSJhnjPktXTG">nada20si@mahasiswa.pcr.ac.id</a><br>
+                                </span>
+                            </p>
+                        </div>
+                        <!-- end footer-box-c -->
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-box-d">
+                            <h3>Opening Hours</h3>
+                            <ul>
+                                <li>
+                                    <p>Monday - Thursday </p>
+                                    <span> 07:00 AM - 12:00 PM</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end footer-box-d -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end footer-in-main -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+        <div id="copyright" class="copyright-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h6 class="copy-title"> Copyright &copy; 2022 Facial Emotion Recognition is powered by
+                            Kelompok 7<a href="#" target="_blank"></a> </h6>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end copyright-main -->
+    </div>
+    <!-- end footer-box -->
+    </div>
+    <!-- end footer-main -->
+
+    <a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        // Acc
+        $(document).on("click", ".naccs .menu div", function () {
+            var numberIndex = $(this).index();
+
+            if (!$(this).is("active")) {
+                $(".naccs .menu div").removeClass("active");
+                $(".naccs ul li").removeClass("active");
+
+                $(this).addClass("active");
+                $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+                var listItemHeight = $(".naccs ul")
+                    .find("li:eq(" + numberIndex + ")")
+                    .innerHeight();
+                $(".naccs ul").height(listItemHeight + "px");
+            }
+        });
+    </script>
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script>
+        // Acc
+        $(document).on("click", ".naccs .menu div", function () {
+            var numberIndex = $(this).index();
+
+            if (!$(this).is("active")) {
+                $(".naccs .menu div").removeClass("active");
+                $(".naccs ul li").removeClass("active");
+
+                $(this).addClass("active");
+                $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+                var listItemHeight = $(".naccs ul")
+                    .find("li:eq(" + numberIndex + ")")
+                    .innerHeight();
+                $(".naccs ul").height(listItemHeight + "px");
+            }
+        });
+        $(document).ready(function () {
+            'use strict';
+            $('#uploadButton').on('click', function (event) {
+                var data;
+                event.stopPropagation();
+                event.preventDefault();
+
+                data = new FormData();
+                data.append('file', $('input[id="file"]')[0].files[0]);
+
+                var oFReader = new FileReader();
+                oFReader.readAsDataURL(document.getElementById("file").files[0]);
+                oFReader.onload = function (oFREvent) {
+                    document.getElementById("uploadPreview").src = oFREvent.target.result;
+                };
+
+                $.ajax({
+                    url: 'http://a0e9-34-150-237-183.ngrok.io/predict',
+                    type: 'POST',
+                    data: data,
+                    cache: false,
+                    dataType: 'json',
+                    processData: false,
+                    contentType: false,
+                    timeout: 0,
+                    mimeType: "multipart/form-data",
+                    success: function (json) {
+                        console.log(json);
+                        if (json.success == true) {
+                            $('#deskripsi').html('<div style="text-align:left;">File berhasil diproses!');
+                        } else {
+                            $('#deskripsi').html('<div style="text-align:left;">File gagal diproses!');
+                        }
+                        if (json.label == 0) {
+                            $('#hasil').html('Prediction, you are Angry! <br> Perasaan ketidaksenangan terhadap sesuatu yang melukai, menganiaya, menentang dan biasanya muncul dengan spontan serta ingin melawan penyebab perasaan ini. Ekspresi emosi marah sangat bervariasi bentuknya mulai dari perubahan raut muka, dalam bentuk verbal, dalam bentuk tindakan, hingga dalam bentuk sikap dan marah yang tidak diperlihatkan. Pelampiasan marah dapat ditahan atau bahkan dapat pula dieksplorasi. Secara psiklogis terlalu sering menahan marah akan menimbulkan kegoncangan mental dan hal tersebut tidak baik untuk kesehatan mental  ');
+                        } else if (json.label == 1) {
+                            $('#hasil').html('Prediction, you are Disgust! <br> Jijik adalah perilaku reaktif dari tubuh yang sifatnya untuk mencegah. Perasaan jijik baik bagi tubuh karena bisa mencegah timbulnya masalah kesehatan yang lebih parah, seperti terjangkit kuman. Sering merasa jijik justru baik buat kesehatan karena dapat memotivasi perilaku untuk menghindari infeksi. Jijik berarti Perasaan yang muncul karena suatu objek yang menjijikan, tidak diisukai, atau dibenci.');
+
+                        } else if (json.label == 2) {
+                            $('#hasil').html('Prediction, you are Fear! <br> Perasaan cemas dan menghasut karena adanya kehadiran sesuatu yang berbahaya, kejahatan, atau perasaan yang akan menyakitkan. Rasa takut mendorong manusia untuk mengambil tindakan yang perlu untuk menghindari bahaya yang mengancam kelangsungan hidup. Ekspresi emosi takut dapat berupa tindakan seperti: berteriak histeris (scream), loncat, berlari, merunduk, menutup telinga, atau menghindar. Ekspresi takut juga ditandai dengan perubahan faali seperti: denyut nadi meningkat, jantung berdebar - debar, pandangan mata kabur, keluar keringat dingin, dan persendian terasa lemas. ');
+
+                        }
+                        else if (json.label == 3) {
+                            $('#hasil').html('Prediction, your are Happy! <br> Perasaan terhadap sesuatu yang benar-benar disukai, kepuasan, atau rasa riang gembira. Emosi gembira dan bahagia dalam psikologi ditekankan pada hal yang membawa kebermaknaan pada kehidupan. Seseorang akan mencapai kebahagiaannya ketika kebutuhan- kebutuhannya telah terpenuhi atau tercukupi. Sehingga kesehatan mental akan bermula dan berkembang.');
+
+                        }
+                        else if (json.label == 4) {
+                            $('#hasil').html('Prediction, you are Neutral! <br> ekspresi wajah yang ditandai oleh posisi netral dari fitur wajah, menyiratkan kurangnya emosi yang kuat. Ini mungkin disebabkan oleh kurangnya emosi, depresi, kebosanan atau sedikit kebingungan, seperti ketika seseorang merujuk pada sesuatu yang tidak dimengerti oleh pendengar');
+
+                        } else if (json.label == 5) {
+                            $('#hasil').html('Prediction, you are Sad! <br>  Perasaan dimana semangat yang rendah atau duka cita. Beberapa hal yang biasanya menyebabkan manusia dirundung kesedihan yaitu ketika musibah datang seperti kegagalan, kecelakaan, kematian, dan lain-lain. Emosi sedih dapat terjadi dalam hubungan interpersonal, misalnya pada proses komunikasi pesan yang disampaikan dipahami tidak sesuai dengan harapan sebenarnnya (misunderstanding), hal ini dapat menimbulkan kekecewaan. Ekspresi emosi sedih meliputi: menangis dengan air mata bercucuran, mata berkaca-kaca, wajah pucat, dingin, pandangan lesu, tanpa senyum, dan tidak bergairah');
+
+                        } else {
+                            $('#hasil').html('Prediction, you are Suprise! Perasaan atas sesuatu yang tiba-tiba atau tidak terduga. Emosi heran dan kaget berada pada kontinum yang sama. Biasanya diekspresikan dengan: berteriak spontan, terperanjat, mata terbelalak, merinding, latah, meneteskan air mata, dan tertawa');
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log('Error: ' + data.error);
+                    }
+                });
+                $('#jumlah').submit(function (e) {
+                    data_json = JSON.parse(data, ['file', 'label']);
+                })
+            });
+
+        });
+
+        function scrollFormulir() {
+            var konten = document.getElementById("result");
+            konten.scrollIntoView();
+        }
+
+        $('#file').change(function () {
+            //here we take the file extension and set an array of valid extensions
+            var res = $('#file').val();
+            var arr = res.split("\\");
+            var filename = arr.slice(-1)[0];
+            filextension = filename.split(".");
+            filext = "." + filextension.slice(-1)[0];
+            valid = [".jpg", ".png", ".jpeg", ".bmp"];
+            //if file is not valid we show the error icon, the red alert, and hide the submit button
+            if (valid.indexOf(filext.toLowerCase()) == -1) {
+                $(".imgupload").hide("slow");
+                $(".imgupload.ok").hide("slow");
+                $(".imgupload.stop").show("slow");
+
+                $('#namefile').css({ "color": "red", "font-weight": 700 });
+                $('#namefile').html("File " + filename + " is not  pic!");
+
+                $("#uploadButton").hide();
+                $("#fakebtn").show();
+            } else {
+                //if file is valid we show the green alert and show the valid submit
+                $(".imgupload").hide("slow");
+                $(".imgupload.stop").hide("slow");
+                $(".imgupload.ok").show("slow");
+
+                $('#namefile').css({ "color": "green", "font-weight": 700 });
+                $('#namefile').html(filename);
+
+                $("#uploadButton").show();
+                $("#fakebtn").hide();
+            }
+        });
+    </script>
+</body>
+
+</html>
